@@ -1,0 +1,187 @@
+body{
+    background: linear-gradient(107deg, rgba(71, 6, 255, 0.63) 0%, rgba(5, 90, 255, 0.57) 27.26%, rgba(0, 193, 169, 0.84) 47.07%, rgba(0, 64, 123, 0.65) 66.14%, rgba(67, 1, 255, 0.46) 100%);
+    display: flex;
+}
+
+.s1{
+    border-radius: var(--16px, 16px);
+border: 3px solid #FFF;
+background: var(--Glass, rgba(255, 255, 255, 0.10));
+backdrop-filter: blur(21px);
+    height: 70vh;
+    margin-bottom:3vh;
+}
+button{
+
+    color: #FFF;
+font-family: 'Press Start 2P';
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.s1 img{
+    height: 35vh;
+
+}
+
+.s2{
+    border-radius: var(--16px, 16px);
+border: 1px solid #B6FF3F;
+background: linear-gradient(90deg, rgba(64, 198, 187, 0.61) 0.1%, rgba(107, 64, 198, 0.27) 100%), var(--Glass, rgba(255, 255, 255, 0.10));
+   
+    height: 10vh;
+
+}
+.s2 h1{
+    color: #FFF;
+font-family: Press Start 2P;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.s3{
+    border-radius: var(--16px, 16px);
+background: var(--Glass, rgba(255, 255, 255, 0.10));
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+backdrop-filter: blur(12px);
+
+    height: 83vh;
+}
+.s3 h1{
+    color: #FFF;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+
+}
+.heading{
+    margin-top: 5vh;
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+hr{
+    margin-top: 8vh;
+    stroke-width: 1px;
+    stroke: var(--border-color-white-border, rgba(255, 255, 255, 0.20));
+}
+
+.btn1
+{
+    font-family: 'inter';
+    border-radius: var(--10px, 10px);
+    background: var(--surface-colors-surface-sidebar-topbar-surface, rgba(255, 255, 255, 0.10));
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(12px);
+    
+    width: 528px;
+    height: 48px;
+}
+
+.date
+{
+    width: 261px;
+    height: 61px;
+    position: absolute;
+    left: 19px;
+    bottom: 50px;
+    border-radius: var(--16px, 16px);
+    border: 1px solid rgba(255, 255, 255, 0.58);
+    background-blend-mode: darken;
+    backdrop-filter: blur(41px);
+}
+.date1
+{
+    width: 47px;
+    height: 24px;
+    position: absolute;
+    bottom: 24px;
+    border-radius: var(--16px, 16px);
+    border: 1px solid rgba(255, 255, 255, 0.108);
+    background-blend-mode: darken;
+    backdrop-filter: blur(41px);
+}
+.datemain
+{
+    width: 47px;
+height: 49px;
+position: absolute;
+left: 8px;
+bottom: 8px;
+border-radius: var(--16px, 16px);
+background: linear-gradient(329deg, rgba(212, 212, 212, 0.17) 10.35%, rgba(203, 203, 203, 0.00) 90.49%);
+}
+.datetext{
+    padding-top: 5px;
+    padding-left: 60px;
+    font-size: 14px;
+   font-family: "Inter";
+   color: rgba(255, 255, 255, 1);
+
+}
+.datetext2{
+    padding-left: 60px;
+    font-size: 10px;
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1);
+
+
+}
+#item_0 {
+    padding-left: 8px;
+    top: 0px;
+    width: 47px;
+    height: 24px;
+    color: #FFF;
+    font-weight: bold;
+    }
+#item_1
+ {
+        padding-left: 15px;
+        padding-top: 22px;
+        font-size: 14px;
+        width: 17px;
+        font-family: "Inter";
+        color: #FFF;
+        font-weight: bold;
+}
+
+h4{
+    padding-left: 280px;
+    color: #FFF;
+}
+.description{
+    height: 80px;
+    color: #FFF;
+    padding-left: 280px;
+    overflow-y: auto;
+}
+.description::-webkit-scrollbar {
+    display: none;
+}
+.description {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.main,.main2
+{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  
+    body
+    {
+        flex-direction: column;
+    }
+}
